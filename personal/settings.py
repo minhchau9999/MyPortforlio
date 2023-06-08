@@ -67,7 +67,7 @@ WSGI_APPLICATION = 'personal.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'personal_db',
+        'NAME': 'portfolio',
         'USER':'root',
         'PASSWORD':'pwd123',
         'HOST':'localhost',
